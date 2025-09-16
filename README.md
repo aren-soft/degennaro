@@ -63,3 +63,11 @@ https://esm.sh/
 https://esm.sh/#docs
 
 ```
+
+## Add certificate with Let's encrypt
+```
+1. certbot certonly --manual --preferred-challenges dns --key-type rsa -d fletesdegennaro.com
+2. cd C:\Certbot\archive\fletesdegennaro.com
+3. paste the content of cert1.pem, privkey1.pem, and chain1.pem in Netlify for fletesdegennaro.com
+4. 
+```
